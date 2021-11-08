@@ -13,10 +13,10 @@ X, y = make_circles(n_sample, noise=0.03, random_state=42)
 
 
 dt = pd.DataFrame({"x": X[:, 0], "y": X[:, 1], "Label": y[:]})
-"""
+
 plt.scatter(x=dt["x"], y=dt["y"], c=dt["Label"])
 plt.show()
-"""
+
 # -------------------------------------------------
 # Create Neural-Network
 
