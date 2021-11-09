@@ -19,9 +19,8 @@ This repository contains some basic usage of Neural-Networks based on the [Learn
 
 ## How to run the project ?
 
-1. Make sure all the usedlibraries are installed on your local machine
-2. Clone the repository
-3. Open the `main.py` on each folder and run it.
+1. Run the `pip install -r requirements.txt`
+2. Open the `main.py` on each folder and run it.
 
 *Point:*
 To get more details about each project, please refer to the Wiki pages of this repository
