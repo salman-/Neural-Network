@@ -23,11 +23,11 @@ test_y = dataset.test_y
 insurance_model = tf.keras.Sequential()
 insurance_model.add(Input(shape=(11,)))
 insurance_model.add(Dense(100, activation="relu"))
-insurance_model.add(Dense(50, activation="relu"))
-insurance_model.add(Dense(25, activation="relu"))
-insurance_model.add(Dense(12, activation="relu"))
-insurance_model.add(Dense(6, activation="relu"))
-insurance_model.add(Dense(3, activation="relu"))
+insurance_model.add(Dense(60, activation="relu"))
+insurance_model.add(Dense(30, activation="relu"))
+insurance_model.add(Dense(30, activation="relu"))
+insurance_model.add(Dense(30, activation="relu"))
+insurance_model.add(Dense(30, activation="relu"))
 insurance_model.add(Dense(1, activation=None))
 
 # -------------------------------------

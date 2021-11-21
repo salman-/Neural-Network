@@ -60,7 +60,6 @@ predicted_value = model.predict(test_x)
 # ------------------------------------------------------
 # Evaluation
 
-print("Evaluate Testing : ", model.evaluate(test_x, predicted_value))
 
 #-------------------------------------------------------
 #Save the model with h5 format and reload it
