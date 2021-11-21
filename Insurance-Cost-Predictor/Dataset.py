@@ -42,7 +42,7 @@ class Dataset:
 
     def show_histogram_of_charges(self):
         charges = [int(x) for x in self.get_target().values.tolist()]
-        print("min: ",np.min(charges), "Max: ",np.max(charges)," Standard deviation: ",np.std(charges)," Mean",np.mean(charges))
+        print("min: ",np.min(charges), "Max: ",np.max(charges)," Standard deviation: ",np.std(charges)," Mean",np.mean(charges)," median: ",np.median(charges))
         plt.hist(charges, bins=range(0, int(np.max(charges)), 1000))
         plt.title('Histogram of charges feature')
         plt.show()
