@@ -23,4 +23,4 @@ This repository contains some basic usage of Neural-Networks based on the [Learn
 2. Open the `main.py` on each folder and run it.
 
 *Point:*
-To get more details about each project, please refer to the Wiki pages of this repository
+To get more details about each project, please refer to the [Wiki pages of this repository](https://github.com/salman-/Neural-Network/wiki)
